@@ -1,0 +1,24 @@
+{
+    "logger": {
+        "console": {
+            "level": "debug",
+            "colorize": true,
+            "timestamp": true
+        },
+        "file": {
+            "level": "info",
+            "timestamp": true,
+            "json": false,
+            "filename": "chromecast-dbus.log",
+            "maxfiles": 5,
+            "maxsize": 10485760
+        }
+    },
+    "chromecast": {
+        "updateInterval": 1000,
+        "timeout": 3000
+    },
+    "dbus": {
+        "name": "chromecast"
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "chromecast-dbus",
+  "version": "0.1.0",
+  "description": "Registers the chromecast in your local network as a media player on the D-bus",
+  "main": "src/chromecast.js",
+  "readme": "README.md",
+  "author": "Marcel Lehwald <marcel.lehwald@googlemail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "castv2-client": "^1.1.2",
+    "config": "^1.21.0",
+    "dbus-native": "^0.2.0",
+    "deep-equal": "^1.0.1",
+    "eventemitter2": "^2.0.0",
+    "machina": "^2.0.0",
+    "mdns": "^2.3.3",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "chromecast",
+    "dbus",
+    "d-bus"
+  ],
+  "maintainers": [
+    {
+      "name": "Marcel Lehwald",
+      "email": "marcel.lehwald@googlemail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miniME89/chromecast-dbus.git"
+  }
+}
