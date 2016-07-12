@@ -1,6 +1,6 @@
 {
   "name": "chromecast-dbus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Registers the chromecast in your local network as a media player on the D-bus",
   "main": "index.js",
   "author": "Marcel Lehwald <marcel.lehwald@googlemail.com>",
