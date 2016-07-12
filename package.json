@@ -1,11 +1,13 @@
 {
   "name": "chromecast-dbus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Registers the chromecast in your local network as a media player on the D-bus",
-  "main": "src/chromecast.js",
-  "readme": "README.md",
+  "main": "index.js",
   "author": "Marcel Lehwald <marcel.lehwald@googlemail.com>",
   "license": "MIT",
+  "bin" : { 
+    "chromecast-dbus" : "./index.js"
+  },
   "dependencies": {
     "castv2-client": "^1.1.2",
     "config": "^1.21.0",

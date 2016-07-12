@@ -13,20 +13,17 @@ Registers the chromecast in your local network as a media player on the D-bus. T
 
 ## Install
 
-First install the dependencies for [mdns](https://github.com/agnat/node_mdns), than install the project dependencies:
+First install the dependencies for [mdns](https://github.com/agnat/node_mdns), than install the project:
 
 ```
-npm install
+npm install chromecast-dbus -g
 ```
 
 ## Usage
 
 ```
-node lib/main.js
+chromecast-dbus
 ```
-
-## Config
-See config/default.json
 
 ## Author
 
